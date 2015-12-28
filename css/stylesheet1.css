@@ -1,0 +1,137 @@
+.topBanner {
+	height: 55px;
+	background-color: #69ac1d
+}
+
+.topBanner a {
+	color: #e9fbef;
+	text-decoration: none
+}
+
+.topBanner a:hover {
+	text-decoration: underline
+}
+.topBanner .logo {
+	position: absolute;
+	top: 0;
+	left: 10px
+}
+
+.topBanner .nav {
+	position: absolute;
+	right: 5px;
+	top: 27px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #89cc3d
+}
+
+.topBanner .nav li {
+	display: inline;
+	padding: 0 5px;
+	font-weight: bold
+}
+
+.topBanner .nav a {
+	color: #cee9af
+}
+
+.topBanner .nav li.selected a {
+	color: white
+}
+
+.centeredContent {
+	width: 960px;
+	margin: 0 auto;
+	position: relative
+}
+
+#pageFooter .centeredContent {
+	border-top: 1px solid #dadada;
+	background-color: #fafafa;
+	font-size: 11px;
+	padding: 10px 10px;
+	text-align: center;
+	color: #666
+}
+
+
+.loginTools {
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 5px;
+	white-space: nowrap;
+	color: #cee9af;
+	font-size: 11px;
+	background-color: #539007;
+	padding: 1px 5px 1px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-ms-border-radius: 0 0 5px 5px
+}
+
+.loginTools a {
+	padding: 0 8px;
+	color: #cee9af;
+	position: relative
+}
+
+.loginTools a.assignments {
+	padding: 0 8px 0 0
+}
+
+.loginTools a .alert {
+	font-size: 10px;
+	display: block;
+	margin: 0 3px;
+	color: #ffcd09;
+	width: 1.2em;
+	line-height: 1.35em;
+	height: 1.2em;
+	position: absolute;
+	top: 1px;
+	right: -9px
+}
+.loginTools a .count {
+	font-size: 9px;
+	position: relative;
+	top: -1px;
+	display: inline-block;
+	margin: 0 -3px 0 3px;
+	background-color: #c00;
+	line-height: 1.35em;
+	padding: 0 .3em;
+	height: 1.2em;
+	border-radius: .6em;
+	text-align: center;
+	color: #fff
+}
+
+.loginTools .name {
+	font-weight: bold;
+	margin: 0;
+	padding-left: 3px
+}
+
+.loginTools .greeting {
+	margin-right: 5px
+}
+
+#pageFooter .nav a {
+	color: #666;
+	padding: 0 10px;
+	text-decoration: none
+}
+
+#pageFooter .nav a:hover {
+	text-decoration: underline
+}
+
+#pageFooter .nav a.selected {
+	font-weight: bold
+}

@@ -1,0 +1,296 @@
+@CHARSET "ISO-8859-1";
+
+html body {
+	background-color: white
+}
+
+html #page {
+	width: auto;
+	min-width: 962px
+}
+
+html body.standard-wrapper #page {
+	padding-left: 2.5%;
+	padding-right: 2.5%
+}
+
+.content-wrapper {
+	padding: 0 2.5%
+}
+
+.with-header-padding {
+	padding-top: 76px
+}
+
+.with-header-margin {
+	margin-top: 76px
+}
+
+html .centeredContent {
+	width: auto;
+	max-width: 960px
+}
+
+body.standard-wrapper #pageContent {
+	width: 960px;
+	margin: 0 auto 0 auto;
+	padding-bottom: 3em
+}
+
+html #pageContent {
+	background-image: none;
+	font-family: Open Sans;
+	float: none
+}
+
+html #dictionaryContent {
+	position: relative
+}
+
+html .pageHeader {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+	min-width: 962px;
+	position: relative;
+	z-index: 500;
+	margin-bottom: -76px
+}
+
+html body.with-top-tab .pageHeader {
+	box-shadow: none
+}
+
+body.standard-wrapper .pageHeader {
+	margin-bottom: 0
+}
+
+html #pageFooter {
+	border-top: 1px solid #dadada;
+	background-color: #fafafa;
+	width: 100%;
+	position: relative
+}
+
+html #pageFooter .centeredContent {
+	border: 0
+}
+
+h1, h2, h3, h4 {
+	font-weight: 300;
+	margin: 1em 0 .25em 0;
+	color: #333
+}
+
+h1 {
+	font-size: 2.875em
+}
+
+h2 {
+	font-size: 2em
+}
+
+h3 {
+	font-size: 1.17em
+}
+
+p {
+	margin: .5em 0 1em 0
+}
+
+h1 a, h2 a, h3 a {
+	text-decoration: none
+}
+
+.green {
+	background-color: #4db538
+}
+
+.red {
+	background-color: #b23737
+}
+
+.blue {
+	background-color: #3769b2
+}
+
+section:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.section {
+	margin-bottom: 2em
+}
+
+.section>.sectionHeader {
+	font-weight: 300;
+	margin: 0 0 .5em 0;
+	color: #444;
+	border-top: 1px solid #eee;
+	border-bottom: 0;
+	padding: 3px 0;
+	font-size: 1em
+}
+
+.clearfloat:after, .clearfloat:before, .grid:before, .grid:after {
+	display: table;
+	line-height: 0;
+	content: "";
+	clear: both
+}
+
+.grid>.col {
+	float: left;
+	margin-left: 5%;
+	width: 100%
+}
+
+.grid .col:FIRST-CHILD {
+	margin-left: 0
+}
+
+.grid-2>.col {
+	width: 47.5%
+}
+
+.grid-3>.col {
+	width: 30%
+}
+
+.grid-3>.col.span-2 {
+	width: 65%
+}
+
+.grid-4>.col {
+	width: 21.25%
+}
+
+.grid-4>.col.span-2 {
+	width: 47.5%
+}
+
+.grid-4>.col.span-3 {
+	width: 73.75%
+}
+
+.grid-5>.col {
+	width: 16%
+}
+
+.grid-5>.col.span-2 {
+	width: 37%
+}
+
+.grid-5>.col.span-3 {
+	width: 58%
+}
+
+.grid-5>.col.span-4 {
+	width: 79%
+}
+
+.grid-2>.col.span-2, .grid-3>.col.span-3, .grid-4>.col.span-4, .grid-5>.col.span-5
+	{
+	width: 100%
+}
+
+.with-leftnav #pageContent {
+	padding-left: 200px !important
+}
+
+.leftNav label {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+.leftNav>ul {
+	margin: 0 0 0 -200px;
+	padding: 50px 0;
+	display: block;
+	float: left;
+	list-style: none;
+	width: 160px;
+	position: relative;
+	z-index: 1
+}
+
+.leftNav li, .leftNav ul {
+	list-style: none
+}
+
+.leftNav>ul>li {
+	display: block;
+	position: relative;
+	left: 1px;
+	padding: 0;
+	line-height: 2em;
+	font-size: .9em;
+	margin: 0 0 .5em 0
+}
+
+.leftNav li.selected {
+	background: white;
+	color: #333;
+	z-index: 1
+}
+
+.leftNav li.selected>a {
+	font-weight: normal;
+	background-color: white;
+	border-bottom: 1px solid #69ac1d
+}
+
+.leftNav li.selected li.selected>a {
+	border-bottom: 1px solid #ccc
+}
+
+.leftNav li>a:hover {
+	border-bottom: 1px solid #ccc
+}
+
+.leftNav li.selected>a:hover {
+	border-bottom: 1px solid #69ac1d
+}
+
+.leftNav a {
+	display: block;
+	font-weight: 300;
+	text-decoration: none;
+	padding: 0 1em 0 0;
+	border-bottom: 1px solid #eee
+}
+
+.leftNav a:hover {
+	text-decoration: none
+}
+
+.leftNav>ul>li>ul {
+	padding: 0;
+	margin: 0
+}
+
+.leftNav>ul>li>ul>li {
+	padding: 0;
+	margin: 0
+}
+
+.leftNav>ul>li>ul>li a {
+	font-size: .8em;
+	padding-left: .5em
+}
+
+body.with-top-tab .tabPanelContainer {
+	border-bottom: 7px solid #ececec
+}
+
+body .with-header-margin {
+	margin-top: 76px
+}
+
+body.with-top-tab .with-header-padding {
+	padding-top: 84px
+}
