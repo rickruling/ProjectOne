@@ -135,3 +135,13 @@
 #pageFooter .nav a.selected {
 	font-weight: bold
 }
+
+.tabPanelContainer{
+	margin-bottom: 100px;
+}
+hr{
+	margin-top:75px;
+	margin-bottom:75px;
+	color: white;
+    visibility: hidden;
+}

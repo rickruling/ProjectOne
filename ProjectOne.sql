@@ -16,3 +16,5 @@ insert into project_one.questions values(2,'question two content?','a','b','c','
 insert into project_one.questions values(3,'question three content?','a','b','c','d','a',null);
 insert into project_one.questions values(4,'question four content?','a','b','c','d','d',null);
 insert into project_one.questions values(5,'question five content?','a','b','c','d','a',null);
+
+select content,option_a,option_b,option_c,option_d from project_one.questions;
